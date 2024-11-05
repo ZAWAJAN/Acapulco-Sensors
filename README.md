@@ -1,3 +1,6 @@
+# :warning: This for now is a generated readme for the cubic sensor!
+...
+
 # Cubic Illuminance Sensor
 
 A modular open-source illuminance sensor designed for environmental monitoring. The device uses a Raspberry Pi Zero with "Ambient 2 Click" sensors connected via a multiplexer, all enclosed in a laser-cut box.
