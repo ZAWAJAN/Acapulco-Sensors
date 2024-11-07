@@ -39,7 +39,7 @@ However, if you want to learn more, please refer to [the paper](https://journals
 
 ## Calibration Setup
 
-First, you have to calibrate the sensors. Refer to the [Cube Calibration Guide](Cube/docs/Cube_Calibration.md)
+First, you have to calibrate the sensors. Refer to the [Cube Calibration Guide](docs/Cube_Calibration.md)
 
 ## Final Setup
 
