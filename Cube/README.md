@@ -48,7 +48,7 @@ First, you have to calibrate the ==Ambient2Click== sensors. Refer to the [Sensor
 
 After the sensors are calibrated, you can proceed to assemble the final cubic enclosure for all components.
 
-Refer to the [Final Production Guide](02_Final_Production_And_Assembly.md) for instructions.
+Refer to the [Final Production Guide](docs/02_Final_Production_And_Assembly.md) for instructions.
 
 ### 3. Software
 
