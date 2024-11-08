@@ -15,7 +15,7 @@ During callibration, all the sensors have to be as close as possible to each oth
 1. **Calibration Bench:**
 	- You can find the CAD file for the Calibration Bench [here](../src/hardware/Calibration_Bench.dwg).
 	- Laser cut and assemble the calibration bench. refer to the [Instructions](Images/Calibration_Bench_Assembly_Diagram.png) provided. Use glue to stick the sensor brackets to the main board with holes.
-	- ![Calibration Bench Assembly Diagram](Images/Calibration_Bench_Assembly_Diagram.png =1440x900).
+	- ![Calibration Bench Assembly Diagram](Images/Calibration_Bench_Assembly_Diagram.png).
 	- Place the sensors in the slots on the back of the bench. Number them so you know which one is which. Use tape to keep them in place.
 	- There is one additional hole in the centre of the bench face - it can be used either to place the reference meter, or additional sensor to be calibrated (which we did for our purposes).
 	- Use a milky skotch tape to cover the holes through which the sensors look outwards.
@@ -45,11 +45,11 @@ During callibration, all the sensors have to be as close as possible to each oth
      # Run the Python script, passing the CSV file as an argument
 	 python3 sensor_data_collect_store_csv.py "CSV_FILE.csv"
      ```
-	- Or use the bash script [run_sensor_collector.sh](../src/code/run_sensor_collector.sh), in which you have to specify the destination folder. The script will automatically create a new .csv file named with the current day:
-	 ```bash
-	 sudo bash run_sensor_collector.sh
-	 ```
-	- Check if the readings make sense and if everything is stored properly. Refer to [Cube_Troubleshooting](04_Cube_TroubleShooting.md) in case problems arise.
+   - Or use the bash script [run_sensor_collector.sh](../src/code/run_sensor_collector.sh), in which you have to specify the destination folder. The script will automatically create a new .csv file named with the current day:
+     ```bash
+     sudo bash run_sensor_collector.sh
+     ```
+   - Check if the readings make sense and if everything is stored properly. Refer to [Cube_Troubleshooting](04_Cube_TroubleShooting.md) in case problems arise.
 3. **Proceed to Calibraation**
 
 ## Calibration Steps
@@ -61,18 +61,18 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- Start with the bench facing the light source.
 	- Make sure there are no other visible light sources to minimise the measurement interferance.
 2. **Take a measurement**
-	- Run the [run_sensor_collector.sh](../src/code/run_sensor_collector.sh) bash script, which will create the csv file with measurements. Each time you run the script, new measurements will be added as next rows.
-	 ```bash
-	 sudo bash run_sensor_collector.sh
-	 ```
-	- As you can see, the measurements are also displayed in the command line, make sure they look correct. For example, it may happen that the first measurement is 0. Then just take another one and it should normalise.
+ 	- Run the [run_sensor_collector.sh](../src/code/run_sensor_collector.sh) bash script, which will create the csv file with measurements. Each time you run the script, new measurements will be added as next rows.
+	```bash
+  	sudo bash run_sensor_collector.sh
+	```
+ 	- As you can see, the measurements are also displayed in the command line, make sure they look correct. For example, it may happen that the first measurement is 0. Then just take another one and it should normalise.
 	- Next, take measurements with the reference meter. To be thorough, you should take a measurement for each of the sensors, keeping the measuring piece as close to the sensor, basically covering it. Store the measurements in an excel file together.
 	- The basic idea is that you should have stable measurements for each of the sensors - one directly from the sensor, and one from the reference sensor.
-3. **Repeat with other angles and environment setting:**
+4. **Repeat with other angles and environment setting:**
 	- Rotate the calibration bech by 15°.
 	- Take and store measurements until you reach the 90° mark.
 	- repeat the whole process in a daylight room setting.
-4. **Exmaple Calibration csv structure:**
+5. **Exmaple Calibration csv structure:**
 
 | Angle | Sensor Number (ID) | Sensor Reading |
 | ----- | ------------------ | -------------- |
