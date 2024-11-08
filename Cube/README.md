@@ -25,6 +25,9 @@ It is assumed that building suh a sensor requires previous knowledge and intent 
 However, if you want to learn more, please refer to [the paper](https://journals.sagepub.com/doi/full/10.1177/1477153516631392) on which our design is based on.
 
 ## Bill of Materials (BOM)
+
+The bill of materials can also be found in an excel file [Materials_Bill](Materials_Bill.xlsx). Depending on your location there might be different available providers and prices, but we included the ones obtained for our purposes just for reference.
+
 | Component               | Quantity | Description                           | Example Link                       |
 |-------------------------|----------|---------------------------------------|----------------------------|
 | Raspberry Pi Zero 2W       | 1        | Small form-factor computer            | [Buy here](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)               |
@@ -37,35 +40,17 @@ However, if you want to learn more, please refer to [the paper](https://journals
 | Laser-cut MDF case  | 1        | The laser cut elements for custom enclosure assembly. 3mm MDF or other hard sturdy material.   | [CAD Files](#)              |
 | Miscellaneous hardware  | -        | Screws, spacers, wiring, etc.         | -                           |
 
-## Calibration Setup
+## 1. Calibration Setup
 
-First, you have to calibrate the sensors. Refer to the [Cube Calibration Guide](docs/Cube_Calibration.md)
+First, you have to calibrate the ==Ambient2Click== sensors. Refer to the [Sensors Calibration Guide](docs/01_Calibration.md) for instructions on how to do it.
 
-## Final Setup
+## 2. Final Cube Assembly and Setup
 
-After calibration, you can assemble the final cubic device
+After the sensors are calibrated, you can proceed to assemble the final cubic enclosure for all components.
 
-### Hardware Assembly
+Refer to the [Final Production Guide](02_Final_Production_And_Assembly.md) for instructions.
 
-Laser cut the parts
-
-Apply tape and masking tape, and then spray paint the parts
-
-glue the first set of parts
-
-place the sensors and other electronic parts in their place, screw and glue
-
-glue and attach the first set of walls
-
-Wire parts together and glue the wires
-
-Plug in the ethernet cable to the RPi, so it goes through the hole in the top face
-
-Glue and attach the rest of faces, leaving the top face without glue, but use just the screws
-
-Before the final positioning, remove the masking tape from the lux sensor holes.
-
-### Software
+### 3. Software
 
 The software is pretty much the same as the one used in calibration
 
