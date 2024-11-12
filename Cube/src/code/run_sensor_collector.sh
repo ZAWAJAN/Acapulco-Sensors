@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Get in the proper directory
-cd /home/acapulco-rpi-zero/CubeLux/
+# Get in the proper directory - input your own
+cd /home/username/CubeLux/
 
 # Define the CSV file name (this could be dynamically generated, here it's static for example)
 CSV_FILE="sensor_data_$(date +'%Y%m%d').csv"

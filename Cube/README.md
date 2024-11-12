@@ -50,23 +50,12 @@ After the sensors are calibrated, you can proceed to assemble the final cubic en
 
 Refer to the [Final Production Guide](docs/02_Final_Production_And_Assembly.md) for instructions.
 
-### 3. Software
+## 3. Software
 
-The software is pretty much the same as the one used in calibration
-
-Remember to apply the edjustments figured out during the calibration
-
-Set up a cron job however desired.
-
-## Usage Instructions
-- Describe how to use the sensor, adjust settings, and interpret the data.
-- Provide examples, such as data logging or integration with other systems.
+To keep things tidy, software instructions can be found in the [Running Software](docs/03_Running_Software.md) guide.
 
 ## Troubleshooting
 - [Common Issues and Solutions](docs/troubleshooting.md)
-
-## Contributing
-- [Contribution Guidelines](docs/contributing.md)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).

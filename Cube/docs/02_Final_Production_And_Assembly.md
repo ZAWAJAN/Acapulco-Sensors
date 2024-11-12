@@ -50,6 +50,9 @@ After sensors calibration, you can assemble the final cubic device. This guide w
 	- Put the top panel in place. Secure it with bolts through the 4 holes in the side panels. The bolts should go though the holes, bolt holders and bolt nuts glued to the bolt holders. This way it's secured nicely and can be easily dismantled in case a need for a quick repair arises.
 	- Tighten all connections and make sure if you did not forget about anything.
 7. **Final Placement:**
-	- Now the software should be tested to see whether you get eny data and if some of the connections did not get loose.
+	- Now the software should be tested to see whether you get correct data and if some of the connections did not get loose.
 	- Remove the masking tape from the holes.
 	- Hang the cube attatching it to the ceiling or something else. That highly depends on your setting.
+
+## Final Product
+
