@@ -1,10 +1,11 @@
 # Cubic Illuminance Sensor
 
-A modular open-source illuminance sensor designed for environmental monitoring. The device uses a Raspberry Pi Zero with "Ambient 2 Click" sensors connected via a multiplexer, all enclosed in a laser-cut box.
+![Final Cube Image](docs/Images/Cube_FinalAssembly_04.png)
+An open-source cubic illuminance meter designed for environmental monitoring. The device uses a Raspberry Pi Zero with "Ambient 2 Click" sensors connected via a multiplexer, all enclosed in a laser-cut box.
 
 ## Features
 - Measures ambient light in multiple directions (cubic configuration).
-- Modular and customizable design using off-the-shelf components.
+- Customizable design using off-the-shelf components.
 - Built with open-source hardware and software principles.
 
 ## Table of Contents
@@ -52,10 +53,10 @@ Refer to the [Final Production Guide](docs/02_Final_Production_And_Assembly.md) 
 
 ## 3. Software
 
-To keep things tidy, software instructions can be found in the [Running Software](docs/03_Running_Software.md) guide.
+Software instructions can be found in the [Running Software](docs/03_Running_Software.md) guide.
 
 ## Troubleshooting
-- [Common Issues and Solutions](docs/troubleshooting.md)
+- [Common Issues and Solutions](docs/04_Cube_TroubleShooting.md)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).

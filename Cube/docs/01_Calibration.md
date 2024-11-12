@@ -17,14 +17,18 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- Laser cut and assemble the calibration bench. refer to the [Instructions](Images/Calibration_Bench_Assembly_Diagram.png) provided. Use glue to stick the sensor brackets to the main board with holes.
 	- ![Calibration Bench Assembly Diagram](Images/Calibration_Bench_Assembly_Diagram.png).
 	- Place the sensors in the slots on the back of the bench. Number them so you know which one is which. Use tape to keep them in place.
+	- ![Put sensors in place](Images/Cube_Calibration_02.png).
 	- There is one additional hole in the centre of the bench face - it can be used either to place the reference meter, or additional sensor to be calibrated (which we did for our purposes).
+	- ![Put tape on the holes](Images/Cube_Calibration_04.png)
 	- Use a milky skotch tape to cover the holes through which the sensors look outwards.
 2. **Wire:**
    - Connect the "Ambient 2 Click" sensors to the TCA9548A multiplexer.
    - The humidity and temperature sensor is not needed in this step, but you can also connect it to the multiplexer
    - Wire the multiplexer to the Raspberry Pi Zero.
+   - ![Wire components together](Images/Cube_Calibration_03.png)
    - Follow the [Wiring Diagram](Images/Wiring_Diagram.png)
    - ![Wiring Diagram](Images/Wiring_Diagram.png)
+   - ![Final wired calibration bench](Images/Cube_Calibration_05.png)
 3. **Desk Setup:**
 	- Print an angle measuring sheet. This will help you rotate the bench evenly each measurement step.
 	- The bench centre should also be in the center of rotation.
@@ -56,19 +60,21 @@ During callibration, all the sensors have to be as close as possible to each oth
 
 1. **Table Setup**
 	- Place the light source and the center of the calibration bench on the same height
-	- the distance from the light source to the calibration bench shoould be roughly 5 times the diameter of the light source
+	- The distance from the light source to the calibration bench should be roughly 5 times the diameter of the light source
 	- Place the calibration bench on the angular measure centre, so it rotates on the axis of the center (the centre sensor in the middle of the bench)
 	- Start with the bench facing the light source.
+	- ![Calibration bench ready for calibration](Images/Cube_Calibration_06.png)
 	- Make sure there are no other visible light sources to minimise the measurement interferance.
 2. **Take a measurement**
  	- Run the [run_sensor_collector.sh](../src/code/run_sensor_collector.sh) bash script, which will create the csv file with measurements. Each time you run the script, new measurements will be added as next rows.
 	```bash
-  	sudo bash run_sensor_collector.sh
+	sudo bash run_sensor_collector.sh
 	```
  	- As you can see, the measurements are also displayed in the command line, make sure they look correct. For example, it may happen that the first measurement is 0. Then just take another one and it should normalise.
 	- Next, take measurements with the reference meter. To be thorough, you should take a measurement for each of the sensors, keeping the measuring piece as close to the sensor, basically covering it. Store the measurements in an excel file together.
 	- The basic idea is that you should have stable measurements for each of the sensors - one directly from the sensor, and one from the reference sensor.
 4. **Repeat with other angles and environment setting:**
+	- ![Calibration setup rotated](Images/Cube_Calibration_07.png)
 	- Rotate the calibration bech by 15°.
 	- Take and store measurements until you reach the 90° mark.
 	- repeat the whole process in a daylight room setting.
@@ -85,6 +91,10 @@ During callibration, all the sensors have to be as close as possible to each oth
 
 5. **Compare and adjust**
 	- Compare readings from sensors with the reference sensor on a graph
-	- Apply the adjustments so the reading would cover each other and hard code them in the code of the measuring script.
+	- Apply the adjustments so the readings would cover each other and hard code them in the code of the measuring script.
+6. **Apply calibration in the code:**
+	- Go to the [sensor reading script](../src/code/sensor_data_collect_store_csv.py)
+	- Find the `read_lux()` function definition and anvigate to the end of it.
+	- Here, before the final `lux_corrected` value is returned, you should apply the required modification for correction, based on the calibration performed.
 
 ## End

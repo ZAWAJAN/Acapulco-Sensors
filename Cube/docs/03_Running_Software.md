@@ -11,9 +11,11 @@ You can run the python script directly from the command line, providing a name o
 ```bash
 python3 sensor_data_collect_store_csv.py "Data_Log_File.csv"
 ```
+
 Or you could use the [bash script](src/code/run_sensor_collector.sh), which automatically creates a folder named with this days timestamp. In the bash script, at the beginning you can specify the desired directory.
 ```bash
 bash run_sensor_collector.sh
 ```
 
-The sensor is meant to collect data periodically. To set this up, we refer you to [this example guide on cron](https://phoenixnap.com/kb/set-up-cron-job-linux).
+The sensor is meant to collect data periodically. 
+To set this up, we refer you to [this example guide on cron](https://phoenixnap.com/kb/set-up-cron-job-linux).

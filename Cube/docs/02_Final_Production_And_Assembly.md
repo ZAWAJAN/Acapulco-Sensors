@@ -22,7 +22,9 @@ After sensors calibration, you can assemble the final cubic device. This guide w
 	- Put the milky tape on the outsides of each panel to cover the sensor holes. As explained earlier, this tape enables the light to be more scattered and even.
 	- From the masking paper tape - cut circes the size of holes - and put them on the tape covering the holes. This will prevent the black paint from staining the sesnor openinigs.
 	- You can also cover the holes on the inward side - to make sure nothing contaminates the tape form the other side.
+	- ![Spray paint panels - don't forget the masking tape](Images/Cube_FinalAssembly_00.png)
 	- Apply black matte spray paint on the outsides of the panels.
+	- ![Finished panel with masking tape on](Images/Cube_FinalAssembly_01.png)
 
 3. **Panel Preparation:**
 	- Remove the masking tape from the inside of each panel.
@@ -41,15 +43,18 @@ After sensors calibration, you can assemble the final cubic device. This guide w
 	- Ensure connections are secure.
 
 6. **Final Assembly:**
+	- ![Cube assembly start](Images/Cube_FinalAssembly_02.png)
 	- We recommend starting with wiring the bottom panel elements with 3 side panels. This way you leave one of the side panels and the top panel for later, making it easier to connect things inside.
 	- Refer to the same [Wiring Diagram](Images/Wiring_Diagram.png) as during the calibration process.
 	- Use the hot glue to secure wires in place, so they don't eject spontaniously after the case is closed.
 	- Join the panels together using glue. It can be a bit of a spaghetti inside, so be patient and carefull.
 	- **Note!** Remember about the Ethernet cable for the Raspberry Pi. Best to plug it in before the 4th and top walls are in place. The ethernet cable goes though the hole in the top panel.
+	- ![Cube assembly finish](Images/Cube_FinalAssembly_03.png)
 	- At this point you can also wire through the strings that will hold the cube in the air. Use the little holesin the corners of the bottom and top panels. Refer to the [String Mount Diagram](Images/Cube_String_Mount_Diagram.png).
 	- Put the top panel in place. Secure it with bolts through the 4 holes in the side panels. The bolts should go though the holes, bolt holders and bolt nuts glued to the bolt holders. This way it's secured nicely and can be easily dismantled in case a need for a quick repair arises.
 	- Tighten all connections and make sure if you did not forget about anything.
 7. **Final Placement:**
+	- ![Finished Cube ready for placement](Images/Cube_FinalAssembly_04.png)
 	- Now the software should be tested to see whether you get correct data and if some of the connections did not get loose.
 	- Remove the masking tape from the holes.
 	- Hang the cube attatching it to the ceiling or something else. That highly depends on your setting.

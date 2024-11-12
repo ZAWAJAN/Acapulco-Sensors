@@ -49,7 +49,9 @@ def read_lux(bus, address):
 
     LSB_Size = 0.01 * (2 ** E)
     lux = LSB_Size * R
-    lux_corrected = lux * 1.5
+    lux_corrected = lux * 1.5 # The 1.5 is here as the first inintial calibration correction based on the code from the manufacturer.
+    
+    # After this, the final correction should be applied, based on the calibration process.
 
     return round(lux_corrected,3)
 
