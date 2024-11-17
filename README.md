@@ -24,4 +24,5 @@ In two separate folders you can find all needed instructions to assemble and use
 The sensors design, production, and callibration was performed by:
 - [Eleonora Brembilla](https://www.tudelft.nl/en/staff/e.brembilla/)
 - [Pedro de la Barra Luegmayer](https://www.tudelft.nl/en/staff/p.delabarraluegmayer/)
-- [Jan Zawadzki](https://www.linkedin.com/in/jan-zawadzki-a92650213/) 
+- [Jan Zawadzki](https://www.linkedin.com/in/jan-zawadzki-a92650213/)
+- [Wouter Beck](https://www.linkedin.com/in/wouterbeck/)
