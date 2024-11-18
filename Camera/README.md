@@ -56,13 +56,13 @@ HDR image can be later used in light studies, glare analysis etc.
 	- You can refer to the [Main Camera Hold Assembly Guide](docs/00_Camera_Hold_Assembly.md).
 1. **Calibration Stand Setup:**
 	- You may start with calibrating the cmaera first, thus better start with asembling the calibration stand.
-	- Follow the [calibration stand assembly guide](docs/01_Camera_Calibration_Assembly.md).
+	- Follow the [Calibration stand assembly guide](docs/01_Camera_Calibration_Assembly.md).
 2. **Final Camera Mount:**
 	- After the camera is calibrated and all of the correction parameters are defined, you are ready to put your device 
 	in place.
 	- The final mounting place highly depends on your circumstances, but the use of commonly available camera equippment 
 	makes it easy to adjust.
-	- Follow the [final mount assembly guide](docs/02_Camera_Final_Assembly.md).
+	- Follow the [Final mount assembly guide](docs/02_Camera_Final_Assembly.md).
 3. **Wiring Diagram:**
 	- In all steps, the wiring stays the same. Refer to the [Wiring Diagram](docs/images/Camera_Wiring_Diagram.png)
 	- ![Wiring Diagram](docs/images/Camera_Wiring_Diagram.png)
@@ -109,7 +109,7 @@ But we do!
 Each camera module and fisheye lens is different, even if they come from the same manufacturer and the same line.
 
 That's why it's important to apply corrections to the HDR image taken based on those discrepencies. Those corrections 
-	are applied with various Radiance apps in the main [bash script](src/code/#) in consecutive lines after creating 
+	are applied with various Radiance apps in the main [bash script](src/code/run_hdrcapture.sh) in consecutive lines after creating 
 	an HDR image.
 
 See the [Calibration Guide](docs/04_Camera_Calibration_Guide.md) for detailed instructions.
@@ -133,9 +133,6 @@ See the [Calibration Guide](docs/04_Camera_Calibration_Guide.md) for detailed in
 
 ## Troubleshooting
 - [Common Issues and Solutions](docs/troubleshooting.md)
-
-## Contributing
-- [Contribution Guidelines](docs/contributing.md)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).

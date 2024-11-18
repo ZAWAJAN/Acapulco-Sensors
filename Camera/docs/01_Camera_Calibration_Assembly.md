@@ -25,7 +25,7 @@ It will be used only during the Calibration process to determine the true parala
 	- Attach the bracket for the _Ambient2Click_ lux Sensor to the Camera Ring. You can use any of the bolt holes on the edges, however it is convenient in your situation.
 	- Put the Sensor itself in the bracket and secure it with a tape, or simply glue it with a hot glue gun.
 	- Put a milky white tape on the hole in the Ring where the senor is facing out - it's to even out the light coming in.
-	- The Sensor should be calibrated the same way as we did with other sensors for the Cube. Refer to [The Cube Guide](../Cube/README.md).
+	- The Sensor should be calibrated the same way as we did with other sensors for the Cube. Refer to [The Cube Guide](../../Cube/README.md).
 5. **Mount on a rotating head:**
 	- You can now mount it on a quick release rotating head or something similar, to be further used during calibration.
 	- In our case, the true pralax point of the fisheye camera was at 1mm forward mark from the center of the Slider. So the Camera had to be slided 1mm backwards.
