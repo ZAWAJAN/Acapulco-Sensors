@@ -1,6 +1,7 @@
 # Cubic Illuminance Sensor
 
 ![Final Cube Image](docs/Images/Cube_FinalAssembly_04.png)
+
 An open-source cubic illuminance meter designed for environmental monitoring. The device uses a Raspberry Pi Zero with "Ambient 2 Click" sensors connected via a multiplexer, all enclosed in a laser-cut box.
 
 ## Features

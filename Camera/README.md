@@ -1,10 +1,10 @@
 # Camera HDR sensor
 
-:bulb: **This is still in production !!**
-
 This repository enables you to use commonly available modular components to build an HDR image capture device, 
 compliant with Radiance software suite. It comprises of hardware and software to go through calibration process and
 mount the camera on the ceiling, or anywhere else, like in the field.
+
+![Camera attached to the main mounting hold and a regulated arm](docs/images/Camera_FinalPosition.png)
 
 ## Features
 - A low cost way to produce an HDR image remotely, periodically, or in awkward places...
@@ -130,9 +130,6 @@ See the [Calibration Guide](docs/04_Camera_Calibration_Guide.md) for detailed in
 	the HDR via `ra_xyze, pcompos, pfilt` and `pcomb`. Those require parameters and correction `.cal` files specific 
 	to your situation, which have to be defined through the calibration process. 
 	Again refer to [HDR Camera Calibration](#hdr-camera-calibration)
-
-## Troubleshooting
-- [Common Issues and Solutions](docs/troubleshooting.md)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).

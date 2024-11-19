@@ -34,4 +34,5 @@ It will be used only during the Calibration process to determine the true parala
 
 It should look like this after the assembly:
 
-![Camera Calibration Stand Assembled](images/#)
+![Camera Calibration Stand Assembled Front](images/Camera_CalibrationAssembled_01.png)
+![Camera Calibration Stand Assembled Back](images/Camera_CalibrationAssembled_02.png)

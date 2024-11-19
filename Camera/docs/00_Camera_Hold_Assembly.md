@@ -27,4 +27,4 @@ That is used further in calibration and final positioning.
 
 It should look like this after the assembly:
 
-![Main Camera Hold Assembled](images/#)
+![Main Camera Hold Assembled and connected to Raspberry Pi](images/Camera_MainHoldWithRPi.png)
