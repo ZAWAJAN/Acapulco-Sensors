@@ -47,7 +47,8 @@ After sensors calibration, you can assemble the final cubic device. This guide w
 	- We recommend starting with wiring the bottom panel elements with 3 side panels. This way you leave one of the side panels and the top panel for later, making it easier to connect things inside.
 	- Refer to the same [Wiring Diagram](Images/Wiring_Diagram.png) as during the calibration process.
 	- Use the hot glue to secure wires in place, so they don't eject spontaniously after the case is closed.
-	- Join the panels together using glue. It can be a bit of a spaghetti inside, so be patient and carefull.
+	- Join the panels together using glue. It can be a bit of a spaghetti inside, so be patient and careful.
+	- ![Cube Assembly Animation](Images/Cube_FinalAssembly_03_gif.gif)
 	- **Note!** Remember about the Ethernet cable for the Raspberry Pi. Best to plug it in before the 4th and top walls are in place. The ethernet cable goes though the hole in the top panel.
 	- ![Cube assembly finish](Images/Cube_FinalAssembly_03.png)
 	- At this point you can also wire through the strings that will hold the cube in the air. Use the little holes in the corners of the bottom and top panels. Refer to the [String Mount Diagram](Images/Cube_FinalAssembly_05.png).

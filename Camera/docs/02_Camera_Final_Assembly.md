@@ -24,4 +24,4 @@ You can then use it as you wish depending on where you want the camera to be pos
 
 It should look like this after the assembly:
 
-![Camera attached to the main mounting hold and a regulated arm](docs/images/Camera_FinalPosition.png)
+![Camera attached to the main mounting hold and a regulated arm](images/Camera_FinalPosition.png)
