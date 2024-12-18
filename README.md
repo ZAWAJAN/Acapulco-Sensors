@@ -1,4 +1,4 @@
-# Acappulco Sensors
+# Acapulco Sensors
 
 ## Introduction
 
