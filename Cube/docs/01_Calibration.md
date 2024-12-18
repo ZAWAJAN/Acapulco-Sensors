@@ -1,10 +1,10 @@
 # Cube Device Sensors calibration
 
-For best results, before you assemble the final cubic device, first the ==Ambient2Click== lux sensors have to be calibrated, as there always might be some small differences between each sensor, that might differ even more from the true readings of proffessional grade meter.
+For best results, before you assemble the final cubic device, first the _Ambient2Click_ lux sensors have to be calibrated, as there always might be some small differences between each sensor, that might differ even more from the true readings of professional grade meter.
 
 Here we assume you'll have to borrow a proper illuminance meter for the calibration process, like the [Konica Minolta T-10MA](https://www.konicaminolta.eu/eu-en/hardware/measuring-instruments/light-and-display-measurement/illuminance-meters/t-10a-t-10ma), which we used.
 
-The calibration process needs a rather stable environment and light source. We did calibraton in two settings:
+The calibration process needs a rather stable environment and light source. We did calibration in two settings:
 1. artificial light in a dark room
 2. room with a single window during an overcast day
 
@@ -20,7 +20,7 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- ![Put sensors in place](Images/Cube_Calibration_02.png).
 	- There is one additional hole in the centre of the bench face - it can be used either to place the reference meter, or additional sensor to be calibrated (which we did for our purposes).
 	- ![Put tape on the holes](Images/Cube_Calibration_04.png)
-	- Use a milky skotch tape to cover the holes through which the sensors look outwards.
+	- Use a milky scotch tape to cover the holes through which the sensors look outwards.
 2. **Wire:**
    - Connect the "Ambient 2 Click" sensors to the TCA9548A multiplexer.
    - The humidity and temperature sensor is not needed in this step, but you can also connect it to the multiplexer
@@ -54,7 +54,7 @@ During callibration, all the sensors have to be as close as possible to each oth
      sudo bash run_sensor_collector.sh
      ```
    - Check if the readings make sense and if everything is stored properly. Refer to [Cube_Troubleshooting](04_Cube_TroubleShooting.md) in case problems arise.
-3. **Proceed to Calibraation**
+3. **Proceed to Calibration**
 
 ## Calibration Steps
 
@@ -64,7 +64,7 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- Place the calibration bench on the angular measure centre, so it rotates on the axis of the center (the centre sensor in the middle of the bench)
 	- Start with the bench facing the light source.
 	- ![Calibration bench ready for calibration](Images/Cube_Calibration_06.png)
-	- Make sure there are no other visible light sources to minimise the measurement interferance.
+	- Make sure there are no other visible light sources to minimise the measurement interference.
 2. **Take a measurement**
  	- Run the [run_sensor_collector.sh](../src/code/run_sensor_collector.sh) bash script, which will create the csv file with measurements. Each time you run the script, new measurements will be added as next rows.
 	```bash
@@ -75,10 +75,10 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- The basic idea is that you should have stable measurements for each of the sensors - one directly from the sensor, and one from the reference sensor.
 4. **Repeat with other angles and environment setting:**
 	- ![Calibration setup rotated](Images/Cube_Calibration_07.png)
-	- Rotate the calibration bech by 15°.
+	- Rotate the calibration bench by 15°.
 	- Take and store measurements until you reach the 90° mark.
 	- repeat the whole process in a daylight room setting.
-5. **Exmaple Calibration csv structure:**
+5. **Example Calibration csv structure:**
 
 | Angle | Sensor Number (ID) | Sensor Reading |
 | ----- | ------------------ | -------------- |
@@ -94,7 +94,7 @@ During callibration, all the sensors have to be as close as possible to each oth
 	- Apply the adjustments so the readings would cover each other and hard code them in the code of the measuring script.
 6. **Apply calibration in the code:**
 	- Go to the [sensor reading script](../src/code/sensor_data_collect_store_csv.py)
-	- Find the `read_lux()` function definition and anvigate to the end of it.
+	- Find the `read_lux()` function definition and navigate to the end of it.
 	- Here, before the final `lux_corrected` value is returned, you should apply the required modification for correction, based on the calibration performed.
 
 ## End

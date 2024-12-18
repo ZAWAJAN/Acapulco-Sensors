@@ -7,7 +7,7 @@ The Acapulco project, based in the TU Delft Green Village, the Netherlands, is d
 
 ## Sensing Devices
 
-The project uses two environmental sensing devices, which are sometimes referred to as "sensors" in this documantation. 
+The project uses two environmental sensing devices, which are sometimes referred to as "sensors" in this documentation. 
 Each device is in fact a collection of various sensors and parts.
 Both devices were used together in the Acapulco project, however, one can be used without the other.
 
@@ -21,7 +21,7 @@ In two separate folders you can find all needed instructions to assemble and use
 
 ## Authors
 
-The sensors design, production, and callibration was performed by:
+The sensors design, production, and calibration were performed by:
 - [Eleonora Brembilla](https://www.tudelft.nl/en/staff/e.brembilla/)
 - [Pedro de la Barra Luegmayer](https://www.tudelft.nl/en/staff/p.delabarraluegmayer/)
 - [Jan Zawadzki](https://www.linkedin.com/in/jan-zawadzki-a92650213/)

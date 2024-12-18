@@ -1,7 +1,7 @@
 # Camera calibration Stand Assembly Guide
 
 In this guide you will see instructions on how to assemble the Sliding Stand to be used for camera calibration. 
-It will be used only during the Calibration process to determine the true paralax point and to keep the Camera still in various positions.
+It will be used only during the Calibration process to determine the true parallax point and to keep the Camera still in various positions.
 
 **You will need M3 bolts (9-12mm) and M3 square (5.5x5.5mm) nuts for assembly.**
 
@@ -17,7 +17,7 @@ It will be used only during the Calibration process to determine the true parala
 	- ![Screw the Vertical Stand to the Camera Mount back](images/Camera_03_CalibrationStand_01.png)
 	- You can position the Ring how you need.
 3. **Screw everything to the Slider:**
-	- ![Screw the Ring and the attached Vertical Stand to the SLider](images/Camera_04_CalibrationStand_02.png)
+	- ![Screw the Ring and the attached Vertical Stand to the Slider](images/Camera_04_CalibrationStand_02.png)
 	- Put the bolt square nut in the cavity inside the Vertical stand and the Slider.
 	- Use the bolts to secure everything in place.
 4. **Attach the sensor:**
@@ -28,7 +28,7 @@ It will be used only during the Calibration process to determine the true parala
 	- The Sensor should be calibrated the same way as we did with other sensors for the Cube. Refer to [The Cube Guide](../../Cube/README.md).
 5. **Mount on a rotating head:**
 	- You can now mount it on a quick release rotating head or something similar, to be further used during calibration.
-	- In our case, the true pralax point of the fisheye camera was at 1mm forward mark from the center of the Slider. So the Camera had to be slided 1mm backwards.
+	- In our case, the true prallax point of the fisheye camera was at 1mm forward mark from the center of the Slider. So the Camera had to be slid 1mm backwards.
 
 ## End Result
 

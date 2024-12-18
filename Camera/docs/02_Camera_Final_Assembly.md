@@ -14,7 +14,7 @@ You can then use it as you wish depending on where you want the camera to be pos
 		- [Camera_Mount_Slider](../src/hardware/Camera_Mount_Slider.stl). - [STEP version](../src/hardware/Camera_Mount_Slider.stp).
 2. **Assemble parts:**
 	- ![Attach the Claw to the Slider and then the Claw to the Camera Hold](images/Camera_06_FinalMount.png).
-	- You first need to put bolts into the Claw and attach it to the Slider. It can be attached in different positions thanks to 4 symetrical holes.
+	- You first need to put bolts into the Claw and attach it to the Slider. It can be attached in different positions thanks to 4 symmetrical holes.
 	- ![Attach the Claw to the Slider](images/Camera_FinalAssembly_01_Claw.png).
 	- Then you can attach the Claw to the Ring holding the Camera.
 	- ![Attach the Claw to the Camera Hold](images/Camera_FinalAssembly_02_ClawAttach.png).

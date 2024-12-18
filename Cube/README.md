@@ -22,7 +22,7 @@ An open-source cubic illuminance meter designed for environmental monitoring. Th
 ## Introduction
 The Cubic Illuminance Sensor is designed to measure light levels from different angles for environmental sensing applications. It's based on a Raspberry Pi Zero 2W and 6 "Ambient 2 Click" sensors.
 
-It is assumed that building suh a sensor requires previous knowledge and intent on it's purpose. 
+It is assumed that building such a sensor requires previous knowledge and intent on it's purpose. 
 
 However, if you want to learn more, please refer to [the paper](https://journals.sagepub.com/doi/full/10.1177/1477153516631392) on which our design is based on.
 
@@ -38,7 +38,7 @@ The bill of materials can also be found in an excel file [Materials_Bill](Materi
 | Ambient 2 Click         | 6        | MikroElektronika Ambient 2 Click Light Sensor mikroBus Click Board | [Buy here](https://nl.rs-online.com/web/p/sensor-development-tools/1360740)               |
 | Temperature & Humidity Sensor | 1 | Adafruit AHT20 - Temperature & Humidity Sensor Breakout Board | [Buy here](https://www.kiwi-electronics.com/nl/adafruit-aht20-temperature-humidity-sensor-breakout-board-stemma-qt-qwiic-10419) |
 | I2C Multiplexer    | 1        | IC TCA9548A I2C Multiplexer - Adafruit 2717 breakout board for sensor connection | [Buy here](https://www.bitsandparts.nl/IC-TCA9548A-I2C-Multiplexer-Adafruit-2717-breakout-board-p113670)  |
-| Ethernet cable | 1 | Ethernet cable for connection, lenght as needed | [Buy here](https://www.allekabels.nl/utp-kabel/7390/1098220/uutp-kabel-cat-5e.html) |
+| Ethernet cable | 1 | Ethernet cable for connection, length as needed | [Buy here](https://www.allekabels.nl/utp-kabel/7390/1098220/uutp-kabel-cat-5e.html) |
 | Laser-cut MDF case  | 1        | The laser cut elements for custom enclosure assembly. 3mm MDF or other hard sturdy material.   | [CAD Files](#)              |
 | Miscellaneous hardware  | -        | Screws, spacers, wiring, etc.         | -                           |
 

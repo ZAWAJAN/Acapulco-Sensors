@@ -11,7 +11,7 @@ mount the camera on the ceiling, or anywhere else, like in the field.
 - Takes a series of pictures with varying exposures
 - Creates an HDR image using [hdrgen](http://www.anyhere.com/) software
 - Via [Radiance](https://www.radiance-online.org/) software, it applies corrections defined during calibration 
-proces to end up with a proper final HDR image
+process to end up with a proper final HDR image
 - Additionally measures luminosity value with an Ambient2Click sensor, for later validation.
 
 ## Table of Contents
@@ -38,7 +38,7 @@ HDR image can be later used in light studies, glare analysis etc.
 | Raspberry Pi Camera        | 1        | 180° fisheye camera for Raspberry Pi, Arducam Mini imx477 with 180° LN031 fisheye lens    | [Example](https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-module-for-raspberry-pi/) |
 | Ambient 2 Click sensor     | 1        | MikroElektronika Ambient 2 Click Light Sensor mikroBus Click Board                        | [Example](https://nl.rs-online.com/web/p/sensor-development-tools/1360740)            |
 | Ethernet cable             | 1        | Ethernet cable for connection, lenght as needed                                           | [Example](https://www.allekabels.nl/utp-kabel/7390/1098220/uutp-kabel-cat-5e.html)    |
-| 3D printed parts           | 1        | High quality, preferably stereolitography polyjet, resin or similar, pla will not cut it  | [CAD Files](src/hardware) |
+| 3D printed parts           | 1        | High quality, preferably stereolithography polyjet, resin or similar, pla will not cut it  | [CAD Files](src/hardware) |
 | Quick Release Rotating Head| 1        | Standard Camera equipment quick release rotating head, preferably with a level meter      | [Example](https://www.kamera-express.nl/b-i-g-qr-60p-panorama-snelkoppeling-60mm)     |
 | Laser-cut MDF parts        | 1        | Optional laser cut elements. 3mm MDF or other hard sturdy material.                       | [CAD Files](src/hardware) |
 | Miscellaneous hardware     |          | M3 Screws, bolts, and nuts; wires, Rpi camera cable, etc.                                 | Depends on your location  |
@@ -49,18 +49,18 @@ HDR image can be later used in light studies, glare analysis etc.
 	- To save time and money, you can produce all the parts at once. You have to do it first anyway.
 	- Before doing that, please go through the whole documentation first to know what is needed for what. And if you need to do any adjustments in the CAD files.
 	- With the camera ring hold and the lux sensor bracket you have an option, it can be either 3D-printed or laser cut.
-	- Parts should be 3D printed in a high quality and sturdy technology, like stereolitogrpahy polyjet or resin.
+	- Parts should be 3D printed in a high quality and sturdy technology, like stereolitography polyjet or resin.
 	- You will find all the files in the [hardware folder](src/hardware)
 1. **Main Camera Hold:**
 	- Camera is being held by a base circular piece in all circumstances.
 	- You can refer to the [Main Camera Hold Assembly Guide](docs/00_Camera_Hold_Assembly.md).
 1. **Calibration Stand Setup:**
-	- You may start with calibrating the cmaera first, thus better start with asembling the calibration stand.
+	- You may start with calibrating the camera first, thus better start with assembling the calibration stand.
 	- Follow the [Calibration stand assembly guide](docs/01_Camera_Calibration_Assembly.md).
 2. **Final Camera Mount:**
 	- After the camera is calibrated and all of the correction parameters are defined, you are ready to put your device 
 	in place.
-	- The final mounting place highly depends on your circumstances, but the use of commonly available camera equippment 
+	- The final mounting place highly depends on your circumstances, but the use of commonly available camera equipment 
 	makes it easy to adjust.
 	- Follow the [Final mount assembly guide](docs/02_Camera_Final_Assembly.md).
 3. **Wiring Diagram:**
@@ -75,7 +75,7 @@ The software stack that we use is based on the [piHDR](https://github.com/andyre
 
 Basic software like [picamera2](https://pypi.org/project/picamera2/) library should be installed automatically 
 on your Raspberry Pi, but other things like [Radiance](https://www.radiance-online.org/) is quite tricky to install 
-on a Raspberyy Pi and looks like rarely anyone is actually doing it. 
+on a Raspberry Pi and looks like rarely anyone is actually doing it. 
 But we do!
 
 1. **Installation - Dependencies:**
@@ -93,22 +93,22 @@ But we do!
 	 sudo apt-get install imagemagick
 	 ```
 2. **Enable the Camera Module:**
-	- Make sure yuur camrea is connected and works properly.
+	- Make sure your camera is connected and works properly.
 	- Check the [camera dcumentation](https://www.raspberrypi.com/documentation/computers/camera_software.html)
 	- Or alternatively the simple [starters guide](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0)
 3. **Install and Compile Radiance:**
-	- Compiling Radiance on Raspberry Pi can be challanging, especially on newer OS like Bookworm.
+	- Compiling Radiance on Raspberry Pi can be challenging, especially on newer OS like Bookworm.
 	- Refer to the [Radiance Compile Guide](docs/03_Camera_Software_Radiance_Compile.md) to get instructions on 
 	how to do it properly, so every app will work.
 4. **First run:**
 	- Go to the [Usage Instructions](#usage-instructions) and check if things work.
 	- Before [Camera Calibration](#hdr-camera-calibration) process, you can only make a basic HDR image, as you don't 
-	have the neccessary parameters for Radiance correction executables.
+	have the necessary parameters for Radiance correction executables.
 ## HDR Camera calibration
 
 Each camera module and fisheye lens is different, even if they come from the same manufacturer and the same line.
 
-That's why it's important to apply corrections to the HDR image taken based on those discrepencies. Those corrections 
+That's why it's important to apply corrections to the HDR image taken based on those discrepancies. Those corrections 
 	are applied with various Radiance apps in the main [bash script](src/code/run_hdrcapture.sh) in consecutive lines after creating 
 	an HDR image.
 
@@ -132,4 +132,4 @@ See the [Calibration Guide](docs/04_Camera_Calibration_Guide.md) for detailed in
 	Again refer to [HDR Camera Calibration](#hdr-camera-calibration)
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Solderpad License](http://solderpad.org/licenses/SHL-2.1/).

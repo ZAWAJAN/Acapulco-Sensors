@@ -10,5 +10,4 @@
    - Check for proper sensor calibration in the software.
 
 3. **Software Installation Fails**
-   - Ensure all dependencies in `requirements.txt` are correctly installed.
    - Try running the software with elevated privileges (`sudo`).
