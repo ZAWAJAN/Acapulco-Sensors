@@ -20,15 +20,15 @@ An open-source cubic illuminance meter designed for environmental monitoring. Th
 8. [License](#license)
 
 ## Introduction
-The Cubic Illuminance Sensor is designed to measure light levels from different angles for environmental sensing applications. It's based on a Raspberry Pi Zero 2W and 6 "Ambient 2 Click" sensors.
+The Cubic Illuminance Sensor is designed to measure light levels from different angles for environmental sensing applications. It is based on a Raspberry Pi Zero 2W and 6 "Ambient 2 Click" sensors.
 
-It is assumed that building such a sensor requires previous knowledge and intent on it's purpose. 
+It is assumed that building such a sensor requires previous knowledge and intent on its purpose. 
 
-However, if you want to learn more, please refer to [the paper](https://journals.sagepub.com/doi/full/10.1177/1477153516631392) on which our design is based on.
+If you want to learn more, please refer to [the paper](https://journals.sagepub.com/doi/full/10.1177/1477153516631392) on which our design is based on.
 
 ## Bill of Materials (BOM)
 
-The bill of materials can also be found in an excel file [Materials_Bill](Materials_Bill.xlsx). Depending on your location there might be different available providers and prices, but we included the ones obtained for our purposes just for reference.
+The bill of materials can also be found in an excel file [Materials_Bill](Materials_Bill.xlsx). Depending on your location there might be different available providers and prices, but we included the ones we used as a reference.
 
 | Component               | Quantity | Description                           | Example Link                       |
 |-------------------------|----------|---------------------------------------|----------------------------|
