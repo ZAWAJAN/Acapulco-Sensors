@@ -1,21 +1,21 @@
 # Cube Device Sensors calibration
 
-For best results, before you assemble the final cubic device, first the _Ambient2Click_ lux sensors have to be calibrated, as there always might be some small differences between each sensor, that might differ even more from the true readings of professional grade meter.
+For accurate results, before you assemble the final cubic device it is best to calibrate each of the _Ambient2Click_ lux sensors against a research-grade luxmeter.
 
-Here we assume you'll have to borrow a proper illuminance meter for the calibration process, like the [Konica Minolta T-10MA](https://www.konicaminolta.eu/eu-en/hardware/measuring-instruments/light-and-display-measurement/illuminance-meters/t-10a-t-10ma), which we used.
+Here we assume you will have to borrow a professional illuminance meter for the calibration process, like the [Konica Minolta T-10MA](https://www.konicaminolta.eu/eu-en/hardware/measuring-instruments/light-and-display-measurement/illuminance-meters/t-10a-t-10ma) that we used.
 
-The calibration process needs a rather stable environment and light source. We did calibration in two settings:
-1. artificial light in a dark room
-2. room with a single window during an overcast day
+The calibration process needs a stable environment and light source. We performed the calibration in two environmental settings:
+1. electric light in a dark room
+2. room with a single window during a stable overcast day
 
-During callibration, all the sensors have to be as close as possible to each other. For this purpose, a custom laser cut calibration bench can be fabricated using provided [CAD files](../src/hardware/Calibration_Bench.dwg) - see explanation below.
+During calibration, all sensors should be as close as possible to the reference luxmeter. For this purpose, a custom laser cut calibration bench can be fabricated using the provided [CAD files](../src/hardware/Calibration_Bench.dwg) - see explanation below.
 
 ## Hardware Assembly - Calibration Setup
 
 1. **Calibration Bench:**
 	- You can find the CAD file for the Calibration Bench [here](../src/hardware/Calibration_Bench.dwg).
 	- Laser cut and assemble the calibration bench. refer to the [Instructions](Images/Calibration_Bench_Assembly_Diagram.png) provided. Use glue to stick the sensor brackets to the main board with holes.
-	- ![Calibration Bench Assembly Diagram](Images/Calibration_Bench_Assembly_Diagram.png).
+	- ![Calibration Bench Assembly Diagram](Images/Cube_Calibration_00_Bench_Assembly_Diagram.png).
 	- Place the sensors in the slots on the back of the bench. Number them so you know which one is which. Use tape to keep them in place.
 	- ![Put sensors in place](Images/Cube_Calibration_02.png).
 	- There is one additional hole in the centre of the bench face - it can be used either to place the reference meter, or additional sensor to be calibrated (which we did for our purposes).
