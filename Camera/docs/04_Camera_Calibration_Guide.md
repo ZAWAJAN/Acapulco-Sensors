@@ -10,8 +10,10 @@ We will not cover it extensively here, so please refer to beforementioned paper.
 Adapted from [Clotilde Pierson. Coralie Cauwerts, Magali Bodart, Jan Wienold, 2020](https://www.researchgate.net/publication/338386406_Tutorial_Luminance_Maps_for_Daylighting_Studies_from_High_Dynamic_Range_Photography).
 
 1. Response function
-	- This is being done automatically by `hdrgen` while merging the multiple exposures into HDR.
-	- Best practice is to get the response function correction file while making an HDR in a daylit room with one window, facing that window, in an overcast day. You later reuse that file providing it to the `hdrgen` command.
+	- This is being done automatically by `hdrgen` while merging the multiple exposures into an HDR image. An `.rsp` file is created.
+	- Best practice is to generate couple of different response function correction files while making an HDR image in the final scene, testing different stable light conditions.
+	- The one chosen correction file is then reused for every new HDR generation by providing it to the `hdrgen` command.
+	- More explanation can be found in the main `bash` [file](../src/code/run_hdrcapture.sh) generating the HDR image.
 2. Cropping and resizing the HDR image
 	- This crops the image to square encompassing a circle of your lens fisheye view.
 	- You have to know dimensions of your Image and pixel coordinates. This can be done in any image editing software like Gimp, Affinity Photo or Photoshop.

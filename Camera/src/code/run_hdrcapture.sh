@@ -24,7 +24,8 @@ exiftool -overwrite_original -ISO=100 *.jpg
 exiftool -overwrite_original -ISO -ApertureValue>FNumber *.jpg 
 exiftool -overwrite_original -FNumber=2.6 *.jpg 
 
-# create the .rsp file and the HDR image (get hdrgen from anyhere.com)
+# create the .rsp file and the HDR image (get hdrgen from anyhere.com). If a tested response function file already exists, change the ".rsp" file name in the `hdrgen` command to match the existing one.
+# hdrgen ./ldr_??.jpg -o ${dir}.hdr -r existing_response_function.rsp -a -e -f -g
 hdrgen ./ldr_??.jpg -o ${dir}.hdr -r response_function_${dir}.rsp -a -e -f -g
 
 ## HDR image calibration
