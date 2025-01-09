@@ -14,7 +14,7 @@ During calibration, all sensors should be as close as possible to the reference 
 
 1. **Calibration Bench:**
 	- You can find the CAD file for the Calibration Bench [here](../src/hardware/Calibration_Bench.dwg)
-	- Laser cut and assemble the calibration bench. Refer to the [Instructions](Images/Calibration_Bench_Assembly_Diagram.png) provided. Use glue to stick the sensor brackets to the main board with holes.
+	- Laser cut and assemble the calibration bench. Refer to the [Instructions](Images/Cube_Calibration_00_Bench_Assembly_Diagram.png) provided. Use glue to stick the sensor brackets to the main board with holes.
 	- ![Calibration Bench Assembly Diagram](Images/Cube_Calibration_00_Bench_Assembly_Diagram.png)
 	- Place the sensors in the slots on the back of the bench. Number them so you know which one is which. Use tape to keep them in place.
 	- ![Put sensors in place](Images/Cube_Calibration_02.png)
