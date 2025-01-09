@@ -3,7 +3,7 @@
 ## Introduction
 
 The Cube (cubic illuminance sensor) and the Camera (HDR image generation setup) sensors were developed as open hardware devices to support predictive building control as part of the [Acapulco](https://www.thegreenvillage.org/project/acapulco/) research project at the [TU Delft Green village](https://www.thegreenvillage.org/).
-The Acapulco project, based in the TU Delft Green Village, The Netherlands, is developing innovative design tools to optimise the sustainability of heating, cooling and lighting systems in commercial buildings. The project focuses on integrating thermal storage, a heat pump with ground and surface water sources, automated outdoor Venetian blinds and AI-powered predictive controls to enhance energy efficiency, reduce CO2 emissions, and alleviate grid congestion.
+The Acapulco project, based in the TU Delft Green Village, The Netherlands, is developing innovative design tools to optimise the sustainability of heating, cooling and lighting systems in commercial buildings. The project focuses on integrating thermal storage, a heat pump with ground and surface water sources, automated outdoor Venetian blinds, daylight-linked lighting controls, and AI-powered predictive controls to enhance energy efficiency, reduce CO2 emissions, and alleviate grid congestion.
 
 ## Sensing Devices
 
