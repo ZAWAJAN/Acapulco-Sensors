@@ -1,4 +1,4 @@
-j# Cube Device Sensors calibration
+# Cube Device Sensors calibration
 
 For accurate results, before you assemble the final cubic device it is best to calibrate each of the _Ambient2Click_ lux sensors against a research-grade luxmeter.
 
