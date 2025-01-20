@@ -1,6 +1,6 @@
 # Acapulco Sensors
 
-![Project Cover - The Beauty and The Beast](Camera\docs\images\0_Cover_BeautyAndTheBeast.png)
+![Project Cover - The Beauty and The Beast](Camera/docs/images/0_Cover_BeautyAndTheBeast.png)
 
 ## Introduction
 
