@@ -1,4 +1,4 @@
-# Acapulco Sensors
+# Acapulco Sensors: The Cube and The Camera
 
 ![Project Cover - The Beauty and The Beast](Camera/docs/images/0_Cover_BeautyAndTheBeast.png)
 
