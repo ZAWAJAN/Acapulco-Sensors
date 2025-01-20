@@ -1,5 +1,7 @@
 # Acapulco Sensors
 
+![Project Cover - The Beauty and The Beast](Camera\docs\images\0_Cover_BeautyAndTheBeast.png)
+
 ## Introduction
 
 The Cube (cubic illuminance sensor) and the Camera (HDR image generation setup) sensors were developed as open hardware devices to support predictive building control as part of the [Acapulco](https://www.thegreenvillage.org/project/acapulco/) research project at the [TU Delft Green village](https://www.thegreenvillage.org/).
