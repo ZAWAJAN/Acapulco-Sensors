@@ -10,6 +10,7 @@ type: software
 authors:
   - given-names: Jan
     family-names: Zawadzki
+    email: zawadzki.arch@gmail.com
   - given-names: Pedro
     family-names: de la Barra Luegmayer
     orcid: 'https://orcid.org/0000-0002-9736-7065'
