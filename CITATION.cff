@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Acapulco Light Sensors: The Cube and The Camera'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jan
+    family-names: Zawadzki
+  - given-names: Pedro
+    family-names: de la Barra Luegmayer
+    orcid: 'https://orcid.org/0000-0002-9736-7065'
+  - given-names: Wouter
+    family-names: Beck
+  - given-names: Eleonora
+    family-names: Brembilla
+    email: e.brembilla@tudelft.nl
+    affiliation: TU Delft
+    orcid: 'https://orcid.org/0000-0003-1800-8660'
+repository-code: 'https://github.com/ZAWAJAN/Acapulco-Sensors'
+abstract: >-
+  The Cube (cubic illuminance sensor) and the Camera (HDR
+  image generation setup) sensors were developed as open
+  hardware devices to support predictive building control as
+  part of the Acapulco research project at the TU Delft
+  Green village. The Acapulco project, based in the TU Delft
+  Green Village, The Netherlands, is developing innovative
+  design tools to optimise the sustainability of heating,
+  cooling and lighting systems in commercial buildings. The
+  project focuses on integrating thermal storage, a heat
+  pump with ground and surface water sources, automated
+  outdoor Venetian blinds, daylight-linked lighting
+  controls, and AI-powered predictive controls to enhance
+  energy efficiency, reduce CO2 emissions, and alleviate
+  grid congestion.
+license: GPL-3.0
+commit: c19d833a84056dd1ef3d3386d9302c1e03f19136
+version: 1.0.0
+date-released: '2025-01-29'
