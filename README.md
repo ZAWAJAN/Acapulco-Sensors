@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/883641906.svg)](https://doi.org/10.5281/zenodo.14795107)
+
 # Acapulco Light Sensors: The Cube and The Camera
 
 ![Project Cover - The Beauty and The Beast](Camera/docs/images/0_Cover_BeautyAndTheBeast.png)
