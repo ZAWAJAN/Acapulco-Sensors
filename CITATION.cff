@@ -40,7 +40,5 @@ abstract: >-
 license: GPL-3.0
 commit: c19d833a84056dd1ef3d3386d9302c1e03f19136
 version: 1.0.0
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.14795108
+doi: 10.5281/zenodo.14795108
 date-released: '2025-01-29'
